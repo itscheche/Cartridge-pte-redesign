@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <section className="relative min-h-screen w-full before:content-[''] before:absolute before:bg-black/30 before:w-full before:h-full before:left-0 before:top-0 before:z-10">
