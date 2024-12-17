@@ -83,6 +83,63 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-number {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.feature-number h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.feature-content {
+  padding: 2rem;
+}
+
+.feature-content h2 {
+  font-size: 1.8rem;
+  color: #4e54c8;
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
+.feature-content h2 span {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.feature-content p {
+  font-size: 1rem;
+  margin: 0;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* .selling-points-key {
+  position: absolute;
+  top: -24px;
+  left: 19px; */
+/* --tw-translate-x: -50%; */
+/* transform: translate(-50%); */
+/* width: 81px;
+  height: 81px;
+  background-color: black;
+  border-radius: 10%;
+} */
+
 .open-sans-bold {
   font-family: OpenSans-Bold;
 }

@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <section className="relative min-h-screen w-full before:content-[''] before:absolute before:bg-black/30 before:w-full before:h-full before:left-0 before:top-0 before:z-10">
+    <section className="relative min-h-screen w-full before:content-[''] before:absolute before:bg-black/50 before:w-full before:h-full before:left-0 before:top-0 before:z-10">
       <div className="w-full left-0 right-0 h-full top-0 absolute">
         {/* <section> */}
         <video

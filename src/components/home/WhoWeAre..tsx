@@ -3,10 +3,10 @@ import Container from "../Container";
 
 const WhoWeAre = () => {
   return (
-    <section className="relative bg-[#1b2026]">
+    <section className="relative bg-[#18181a]">
       <Container className="flex flex-wrap gap-5 py-24">
         <div className="py-10 flex-1 min-w-[300px]">
-          <h2 className="text-3xl text-white font-light">
+          <h2 className="text-base text-white font-light mb-3">
             Who We Are<span className="text-zinc-200">.</span>
           </h2>
           <h1 className="text-5xl mb-3">
