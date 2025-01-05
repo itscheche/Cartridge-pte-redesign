@@ -138,14 +138,14 @@ const Contact = () => {
 
           <div className="flex flex-col gap-12">
             <div>
-              <p className="text-xl">
+              <p className="text-base">
                 CARTRIDGE provides a simple information management platform
                 along with easy-to-use applications by simply unraveling the
                 state of information in the world.
               </p>
             </div>
             <div>
-              <h3 className="text-3xl mb-3">Contact Info</h3>
+              <h3 className="text-2xl mb-3">Contact Info</h3>
               <ul>
                 <li className="relative pl-[2em] before:absolute before:content-['\f0e0'] before:left-0 before:text-[1.1rem] before:font-[fontAwesome]">
                   <a href="">info@sg-cartridge.com</a>

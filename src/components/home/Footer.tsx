@@ -2,15 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="relative border-t-[1px] border-gray-600 border-solid py-10">
-      <h1 className="text-xl items-center text-center">
-        PRIVACY POLICY{" "}
-        <span className="block">
-          {" "}
-          © CARTRIDGE CORPORATION, ALL RIGHTS RESERVED{" "}
-        </span>
-      </h1>
-    </div>
+    <footer className="bg-[#242427] text-white py-6">
+      <div className="container mx-auto text-center">
+        <p className="text-sm">
+          &copy; 2025 Cartridge Corporation. All rights reserved.
+        </p>
+      </div>
+    </footer>
   );
 };
 

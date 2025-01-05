@@ -14,7 +14,7 @@ const SellingPoints = () => {
           {/* Card 1 */}
           <div className="text-justify relative bg-transparent backdrop-blur-md border-solid border-[1px] border-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-transform transform hover:-translate-y-2">
             <div>
-              <h3 className="text-6xl open-sans-bold">
+              <h3 className="text-6xl">
                 01{" "}
                 <span className="text-2xl font-semibold block">
                   Multilinguals
@@ -31,7 +31,7 @@ const SellingPoints = () => {
           {/* Card 2 */}
           <div className="text-justify relative bg-transparent backdrop-blur-md border-solid border-[1px] border-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-transform transform hover:-translate-y-2">
             <div>
-              <h3 className="text-6xl open-sans-bold">
+              <h3 className="text-6xl">
                 02
                 <span className="text-2xl font-semibold block">
                   High-quality & Low-cost
@@ -48,7 +48,7 @@ const SellingPoints = () => {
           {/* Card 3 */}
           <div className="text-justify relative bg-transparent backdrop-blur-md border-solid border-[1px] border-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-transform transform hover:-translate-y-2">
             <div>
-              <h3 className="text-6xl open-sans-bold">
+              <h3 className="text-6xl">
                 03
                 <span className="text-2xl font-semibold block">
                   Team of Experts

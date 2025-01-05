@@ -59,7 +59,7 @@ const Service = () => {
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           We Specialize in{" "}
           <span
-            className="block text-6xl md:text-[5.5rem] uppercase open-sans-bold tracking-wide"
+            className="block text-6xl md:text-[5.5rem] uppercase tracking-wide"
             style={{ minHeight: "1em" }} // Reserve space for text
             aria-live="polite"
           >
@@ -69,7 +69,7 @@ const Service = () => {
           </span>
         </h1>
         <div className="flex justify-between items-center">
-          <p className="text-lg text-gray-700 leading-relaxed max-w-5xl">
+          <p className="text-base text-gray-700 leading-relaxed max-w-5xl">
             CARTRIDGE provides one-stop service from IT strategy planning and
             digital transformation to system implementation and maintenance. We
             leverage the latest technologies, backed by our in-house solution

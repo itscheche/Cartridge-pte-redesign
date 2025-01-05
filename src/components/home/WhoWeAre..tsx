@@ -12,7 +12,7 @@ const WhoWeAre = () => {
           <h1 className="text-5xl mb-3">
             Preparing for your success trusted source in IT services
           </h1>
-          <p className="mb-10">
+          <p className="mb-10 text-base">
             CARTRIDGE focuses on Developing Technology & Consulting services.
           </p>
           <ul className="flex flex-col gap-5 custom-ul-box">

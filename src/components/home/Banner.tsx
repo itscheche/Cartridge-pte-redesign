@@ -16,15 +16,13 @@ const Banner = () => {
       </div>
 
       <div className="absolute z-20 w-[90%] text-white top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 text-center">
-        <h1 className="text-[7rem] leading-none open-sans-bold">
+        <h1 className="text-[7rem] leading-none font-black">
           CARTRIDGE <span className="block">CORPORATION </span>
         </h1>
-        <p className="text-[1.3rem]">
-          Pursuing corporate productivity improvement
-        </p>
+        <p className="text-lg">Pursuing corporate productivity improvement</p>
         <a
           href="en/aboutus.html"
-          className="bg-white font-bold p-4 block w-64 m-auto mt-6 text-black hover:scale-[1.05] hover:text-gray-700 transition-transform rounded-[28rem]"
+          className="bg-white text-base font-bold p-4 block w-64 m-auto mt-6 text-black hover:scale-[1.05] hover:text-gray-700 transition-transform rounded-[28rem]"
         >
           Click here for more
         </a>
