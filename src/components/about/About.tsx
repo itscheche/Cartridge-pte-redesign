@@ -5,6 +5,7 @@ import Vision from "./Vision";
 import Service from "../services/Services";
 import Footer from "../home/Footer";
 import Achievements from "./Achievements";
+import GlobalPresence from "./GlobalPresence";
 
 const About = () => {
   return (
@@ -34,67 +35,8 @@ const About = () => {
         <Vision />
       </div>
 
-      {/* Services Section */}
-      {/* <Service /> */}
-
       {/* Global Presence Section */}
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-indigo-600 mb-8">
-            Global Presence
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                city: "Singapore",
-                address:
-                  "12 Eu Tong Sen Street, #07-172 The Central, Singapore 059819",
-              },
-              {
-                city: "Philippines / Cebu",
-                address:
-                  "Latitude Corporate Center, 15D Mindanao Ave, Cebu City, Cebu, 6000",
-              },
-              {
-                city: "Japan / Tokyo",
-                address:
-                  "Central Building 5F, 1-1-5 Kyobashi, Chuo-Ku, Tokyo 104-0031",
-              },
-              {
-                city: "Japan / Hakata",
-                address:
-                  "AS OFFICE Hakata, 1-11-27 Hakata-Eki Minami, Hakata-Ku, Fukuoka 812-0016",
-              },
-            ].map((location, index) => (
-              <div
-                key={index}
-                className="p-6 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
-              >
-                <h3 className="font-bold text-lg text-blue-600 mb-2">
-                  {location.city}
-                </h3>
-                <p className="text-sm text-gray-500">{location.address}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto text-center px-4">
-          <h2 className="text-4xl font-bold text-blue-600 mb-8">Contact Us</h2>
-          <p className="text-lg leading-relaxed">
-            For inquiries, please email us at{" "}
-            <a
-              href="mailto:info@sg-cartridge.com"
-              className="text-indigo-600 underline hover:text-blue-600"
-            >
-              info@sg-cartridge.com
-            </a>
-          </p>
-        </div>
-      </section>
+      <GlobalPresence />
 
       {/* Footer */}
       <Footer />
